@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+a,
+span,
+label {
+  font-family: $main-font;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $hs-font;
+  font-weight: bold;
+  color: $dark;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+span,
+button,
+input {
+  display: inline-block;
+}
+
+input {
+  color: $dark;
+  outline: none;
+}

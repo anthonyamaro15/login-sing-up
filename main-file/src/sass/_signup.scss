@@ -1,0 +1,45 @@
+.date-of-birth {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  input {
+    width: 30%;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+.terms {
+  width: 100%;
+  font-size: 0.7rem;
+  text-align: center;
+  margin: 1rem 0;
+
+  a {
+    font-size: 0.7rem;
+    color: $logo-color;
+  }
+}
+
+.btn {
+  width: 80%;
+  margin: 0 auto;
+  button {
+    width: 100%;
+    outline: none;
+    @include btnStyle($logo-color, $white, 100%);
+  }
+}
+
+.login {
+  width: 100%;
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 1rem;
+
+  a {
+    font-size: 1rem;
+    color: $logo-color;
+  }
+}
